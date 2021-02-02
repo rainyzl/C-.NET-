@@ -26,7 +26,7 @@ namespace sample
 				newGray[i]=0;
 			}
 
-
+    
 			BitmapData bmData = b.LockBits(new Rectangle(0, 0, b.Width, b.Height), 
 
 				ImageLockMode.ReadWrite, PixelFormat.Format24bppRgb); 
